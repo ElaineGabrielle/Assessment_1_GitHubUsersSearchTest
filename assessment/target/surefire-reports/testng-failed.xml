@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test(failed)" verbose="0">
+    <classes>
+      <class name="com.example.GitHubUsersSearchTest">
+        <methods>
+          <include name="close"/>
+          <include name="GitHubTest"/>
+          <include name="HPSETUP"/>
+        </methods>
+      </class> <!-- com.example.GitHubUsersSearchTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [SuiteTest] -->
